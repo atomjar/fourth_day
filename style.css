@@ -1,0 +1,370 @@
+
+/*********************************************PAGE*/
+/*.page {
+  width: 80%;
+  margin: 0 auto;
+}*/
+
+/*********************************************HEADER*/
+header {
+  background-image: url("./surf-and-paddle-assets/header.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 475px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 120px;
+  padding-top: 15px;
+}
+
+.blog {
+  font-family: 'Open Sans', sans-serif;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.nav-link a {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: #083452;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 70px;
+  color: white;
+  padding-top: 60px;
+  margin-bottom: 0px;
+}
+
+.project {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+
+.left-nav {
+  display: flex;
+}
+
+/*.right-nav {
+
+}*
+
+/*********************************************BODY*/
+.main {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+article {
+  width: 50%;
+}
+
+.blog-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: #083452;
+  margin-top: 0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.quote {
+  color: #106db3;
+  font-family: 'Open Sans', sans-serif;
+  border-left: 2px solid #9E9E9E;
+  border-right: white;
+  border-top: white;
+  border-bottom: white;
+}
+
+h2 {
+  margin: 46px;
+  text-align: center;
+  width: 70%;
+  height: 45px;
+  margin-left: 16px;
+  padding-left: 15px;
+  margin-top: 1px;
+  padding-top: 9px;
+  margin-bottom: 8px;
+}
+
+.chic {
+  color: gray;
+}
+
+aside {
+  padding-top: 20px:
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anne {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #106db3;
+  padding-top: 0;
+}
+
+.ad a {
+  float: right;
+  color: gray;
+  padding-right: 9px;
+}
+
+.sidebar p {
+  font-size: 12px;
+}
+
+.sidebar a {
+  color: gray;
+}
+
+/*.avatar p {
+  margin-top: 0;
+  padding-top: : 0;
+}*/
+
+/*********************************************IMAGES*/
+.images {
+  display: flex;
+  margin: 0 auto;
+}
+
+
+
+/*********************************************FOOTER*/
+footer{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #083452;;
+  height: 70px;
+}
+
+.footer-text {
+  font-size: 10px;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 100px;
+}
+
+
+
+
+
+
+
+/*********************************************Nav*
+.nav-bar {
+  width: 100%;
+  background: transparent;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-list-item {
+  margin: 1rem 0.5rem;
+  color: #106db3;
+}
+
+.nav-logo {
+   padding-top: 15px;
+   float:left;
+}
+
+.nav-search {
+  padding-top: 15px;
+  padding-left: 340px;
+}
+
+a:link {
+  color: #083452;
+  background-color: transparent;
+}
+
+a:hover {
+  color: ;
+  background-color: red;
+}
+
+.blog {
+  float: left;
+}
+
+/********************************************Header*/
+/*
+.title {
+  text-align: center;
+}
+
+.project {
+  display: inline-block;
+}
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+/*
+
+* {
+  font-family: sans-serif;
+}
+
+/*img:hover {
+   opacity: 0.5;
+   filter: alpha(opacity=100);
+
+
+.strip {
+border-bottom-color: red;
+max-width: 60%;
+border-bottom-width: 5px;
+}
+
+  /**************************************Top Text*
+h1 {
+  margin-top: 130px;
+  text-align: center;
+  color: #545454;
+}
+
+.some-text {
+  text-align: center;
+  color: #545454;
+}
+
+
+
+
+  /**************************************Gallery*
+.gallery {
+  width: 60%;
+  margin:auto;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.left.side {
+  display: -webkit-flex;
+  display: flex;
+  display: inline-block;
+  width: 60%;
+}
+
+.right.side{
+  display: -webkit-flex;
+  display: flex;
+  display:inline-block;
+  flex-direction: column;
+  width: 40%;
+}
+
+/***************************************Images*
+.stone {
+width: 490px;
+padding: 5px;
+}
+
+.plant {
+  width: 240px;
+  padding: 0 2.5px;
+
+}
+.sea {
+  width: 240px;
+  padding: 0 2.5px;
+}
+
+.clouds {
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+}
+
+.building {
+  padding: 0 5px;
+  width: 300px;
+  height: 408px;
+}
+
+  /**************************************Footer*
+footer {
+  width: 60%;
+  margin: auto;
+}
+
+.new-color {
+    color: red;
+  }
+
+.new {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    width: 200px;
+  }
+
+.lipsom {
+    padding: 1em;
+    -moz-column-count: 3;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+    column-count: 3;
+    column-gap: 1em;
+    font-size: 12px;
+  }
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.modern {
+  font-size: 12px;
+  float: right;
+  width: 500px;
+}
